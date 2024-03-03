@@ -58,7 +58,7 @@ public class DataInput {
                         .append(gender).append("\n");
                 writer.write(stringBuilder.toString());
                 writer.close();
-                System.out.println("Пользователь успешно зарегистрирован.Ы");
+                System.out.println("Пользователь успешно зарегистрирован.");
                 break;
             } catch (IOException e) {
                 e.printStackTrace();
